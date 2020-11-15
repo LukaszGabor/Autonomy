@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-rows: repeat(6, auto);
+}
+nav{
+    background-color: #180E0B;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+}
+header{
+    color: white;
+}
+h1{
+    padding: 1em;
+    width: 10%;
+}
+header>nav>ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    width: 80%;
+}
+header>nav>ul>li{
+    margin-right: 6%;
+    padding: 1%;
+}
+header>nav>ul>li>a{
+    display: block;
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.5em;
+    padding: 1em;
+    width: auto;
+}
+header>nav>ul>li>a:hover{
+    color: aquamarine;
+    background-color: #56c9d6;
+    width: auto;
+}
+.button{
+    background-color: #56c9d6;
+} 
+.banner>img{
+    width: 100%;max-height: 500px;
+}
+main{
+    padding: 1em;
+    display: flex;
+    flex-basis: 100%;
+}
+main>article{
+    margin: 2%;
+}
+main>article>figure>img{
+    padding-bottom: 2em;
+}
+main>article>p{
+    padding-top: 2em;
+}
+.photos{
+    background: #372019;
+    display: grid;
+    grid-row: 4/5;
+    grid-column: 1/-1;
+    grid-template-columns: 19% 32% 30% 19%;
+    color: #c0745d;
+    padding-top: 2em;
+}
+.lp{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, auto);
+}
+.lp img{
+    margin: 1%;
+}
+.lp article{
+    display: flex;
+    padding: 1em;
+    margin-right: 2em;
+}
+.lp p{
+    margin-left: 1em;
+}
+.rp img{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.sth{
+    background-color: #251614;
+    display: grid;
+    display: flex;
+    grid-area: 5/1/6/-1;
+    color: #c0745d;
+    padding-top: 3em;
+    padding-bottom: 4em;
+}
+.sth article{
+    padding-left: 3em;
+    padding-right: 3em;
+    width: 50%;
+}
+.sth p{
+    margin-top: 3em;
+}
+aside{
+    display: block;
+}
+aside h2{
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+aside li{
+    padding: 0.7em;
+}
+aside li a{
+    text-decoration: none;
+    color: #c0745d;
+}
+footer{
+    background-color: #180E0B;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    color: #c0745d;
+}
